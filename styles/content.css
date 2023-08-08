@@ -1,0 +1,80 @@
+.content{
+    margin-left: 404px ;
+    cursor: pointer ;
+    padding: 12px 8px 12px 16px ;
+    display: flex ;
+    width: 596px ;
+    border-bottom: solid rgb(236, 236, 236) 1px ;
+}
+
+.content:hover{
+    background-color: rgb(244, 244, 244) ;
+}
+
+.verified-icon{
+    width: 18px ;
+}
+
+.profile-name{
+    font-weight: 500 ;
+}
+
+.info p, .info img{
+    display: inline-block ;
+    margin-right: 5px ;
+}
+
+.info{
+    display: flex ;
+    align-items: center ;
+}
+
+.profile-handle{
+    font-weight: 400 ;
+    color: rgb(101 119 134) ;
+    font-size: 15px ;
+}
+
+.profile-information{
+    display: flex ;
+    align-items: center ;
+    justify-content: space-between ;
+    position: relative ;
+}
+
+.p{
+    position: absolute ;
+    font-size: 25px ;
+    top: -10px ;
+    right: 7px ;
+
+}
+
+.actual-tweet{
+    width: 515px ;
+    font-weight: 350 ;
+    margin-top: 1px ;
+    margin-bottom: 15px ;
+}
+
+.tweet-image{
+    border-radius: 20px ;
+    width: 508px ;
+    object-fit: cover ;
+    margin-bottom: 5px ;
+}
+
+.comments-and-likes, .comments-and-likes div{
+    display: flex ;
+    align-items: center ;
+    font-size: 14px ;
+}
+
+.comments-and-likes{
+    justify-content: space-between ;
+    width: 510px ;
+}
+
+.comments-and-likes div i{
+    margin-right: 12px ;
+}

@@ -1,0 +1,220 @@
+.right-side-bar{
+    border-left: solid rgb(236, 236, 236) 1px ;
+    position: fixed ;
+    top: 0px ;
+    bottom: 0px ;
+    right: 0px ;
+    left: 1000px ;
+    z-index: 101 ;
+    /* width: 519px */
+}
+
+.sidebar-right, .sidebar-right-search{
+    margin-left: 1030px ;
+    top: 0px ;
+    z-index: 102 ;
+}
+
+.sidebar-right-search{
+    position: fixed ;
+    top: 4px ;
+    display: flex ;
+    align-items: center ;
+    border: none ;
+    padding: 10px 15px 10px 15px ;
+    border-radius: 35px ;
+    background-color: rgb(239, 243, 244) ;
+}
+
+.sidebar-right{
+    position: fixed ;
+    top: 50px ;
+}
+
+.search-bar-icon{
+    width: 17px ;
+    vertical-align: middle ;
+    margin-right: 16px ;
+}
+
+.search-bar-box{
+    vertical-align: middle ;
+    font-size: 16px ;
+    width: 290px ;
+    border: none ; 
+    background-color: rgb(239, 243, 244) ;
+    padding-top: 1px ;
+    padding-bottom: 1px ;
+}
+
+.search-bar-box:focus{
+    outline: none ;
+}
+
+.get-verified-div{
+    background-color: rgb(247, 249, 249) ;
+    margin-top: 18px ;
+    padding: 12px 96px 12px 15px ;
+    border-radius: 20px ;
+}
+
+.get-verified-top-text{
+    font-weight: 600 ;
+    font-size: 20px ;
+}
+
+.get-verified-mid-text{
+    font-weight: 500 ;
+    font-size: 16px ;
+    margin-top: 10px ;
+}
+
+.get-verified-btn{
+    background-color: black ;
+    color: white ;
+    margin-top: 10px ;
+    font-size: 15px ;
+    font-weight: 600 ;
+    padding: 8px 21px 8px 21px ;
+    border-radius: 35px ;
+    cursor: pointer ;
+}
+
+.get-verified-btn:hover{
+    opacity: 0.8 ;
+}
+
+.trends{
+    background-color: rgb(247, 249, 249) ;
+    margin-top: 14px ;
+    border-radius: 20px ;
+    padding: 12px 0px 0px 0px ;
+    width: 355px;
+}
+
+.trends-header{
+    font-weight: 600 ;
+    font-size: 20px ;
+    margin-bottom: 10px ;
+}
+
+.trend{
+    cursor: pointer ;
+    padding: 12px 15px 12px 15px ;
+}
+
+.trend:hover, .show-more-trends:hover{
+    background-color: rgb(244, 244, 244) ;
+}
+
+.trend-top{
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    position: relative ;
+}
+
+.trend-title{
+    font-size: 12.5px ;
+    color: rgb(101 119 134) ;
+}
+
+.trend-dots{
+    color: rgb(101 119 134) ;
+    font-size: 26px ;
+    padding: 0 ;
+    position: absolute ;
+    bottom: -4px ;
+    right: 2px ;
+}
+
+.trend-dots:hover{
+    color: rgb(29 161 242) ;
+}
+
+.trend-name{
+    font-weight: 500 ;
+    margin-top: 3px ;
+}
+
+.trend-tweets{
+    font-size: 12.5px ;
+    color: rgb(101 119 134) ;
+    vertical-align: middle ;
+    margin-top: 5px ;
+}
+
+.show-more-trends{
+    padding: 15px 0px 15px 15px ;
+    cursor: pointer ;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+}
+
+.show-more-trends p{
+    color: rgb(29 161 242) ;
+}
+
+
+.terms-of-service{
+    width: 355px ;
+    padding-left: 15px ;
+    margin-top: 15px ;
+}
+
+.terms-of-service a{
+    font-size: 12.5px ;
+    cursor: pointer ;
+    display: inline-block ;
+    color: rgb(101 119 134) ;
+    margin-right: 12px ;
+}
+
+.underline:hover{
+    text-decoration: underline ;
+}
+
+.no-underline, .no-underline:hover{
+    text-decoration: none ;
+}
+
+.messages{
+    display: flex ;
+    align-items: center ;
+    position: fixed ;
+    bottom: 0px ;
+    width: 400px ;
+    box-shadow: 1px 1px 4px rgb(0, 0, 0, 0.3);
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+    left: 1100px ;
+    top: 675px ;
+    padding-left: 20px ;
+    justify-content: space-between ;
+    padding-right: 25px ;
+    padding-bottom: 15px ;
+    padding-top: 15px ;
+    background-color: white ;
+}
+
+.messages p{
+    font-weight: 600 ;
+    font-size: 20px ;
+}
+
+.messaging-icons{
+    width: 19px ;
+    height: 19px ;
+    margin-right: 20px ;
+}
+
+.messaging-icons1{
+    width: 19px ;
+    height: 16px ;
+}
+
+.message-icons{
+    display: flex ;
+    align-items: center ;
+}
+
